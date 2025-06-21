@@ -73,3 +73,14 @@ export interface ISearch {
   totalElements?: number;
   totalPages?:number;
 }
+
+
+export interface ISportTeam {
+  name?: string;
+  players?: string[];
+  stadium?: string;
+  founded?: number;
+  coach?: string;
+  isInClubsWorldCup?: boolean;
+  teamLogo?: string;
+}
